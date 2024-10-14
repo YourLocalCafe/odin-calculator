@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#display {
+    height: 150px;
+    border: 2px solid black;
+    font-weight: 500;
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    height: 700px;
+    width: 550px;
+}
+
+.container .row {
+    display: flex;
+}
+
+.container button {
+    border: 1px solid black;
+    margin: 0;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    flex: 1;
+    font-size: larger;
+    padding: 0;
+}
+
+#AC {
+    flex: 3;
+}
+
+#zero {
+    flex: 2;
+}
