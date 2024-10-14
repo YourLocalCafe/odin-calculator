@@ -88,6 +88,15 @@ container.addEventListener('click', (event) => {
                     operation = null;
                     display.textContent = displayValue;
                 }
+                break;
+            case 'delete':
+                if(displayValue.length <= 1) {
+                    displayValue = "0";
+                    display.textContent = displayValue;
+                } else {
+                    displayValue = displayValue.substring(0, displayValue.length - 1);
+                    display.textContent = displayValue;
+                }
         }
     }
 });

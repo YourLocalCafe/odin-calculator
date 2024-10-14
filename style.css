@@ -17,7 +17,7 @@ body {
 }
 
 #display {
-    height: 150px;
+    height: 140px;
     border: 2px solid black;
     font-weight: 500;
     font-size: 100px;
@@ -25,11 +25,15 @@ body {
     justify-content: flex-end;
     align-items: center;
     overflow: hidden;
+    background-color: lightgray;
+    padding: 5px;
 }
 
 .container {
     height: 700px;
     width: 550px;
+    border: 5px solid black;
+    background-color: black;
 }
 
 .container .row {
@@ -47,10 +51,32 @@ body {
     flex: 1;
     font-size: larger;
     padding: 0;
+    border-radius: 10px;
+}
+
+.operator {
+    background-color: aquamarine;
+}
+
+.number {
+    background-color: cadetblue;
 }
 
 #AC {
     flex: 3;
+    background-color: crimson;
+}
+
+#delete {
+    background-color: darkred;
+}
+
+#decimal {
+    background-color: aqua;
+}
+
+#equals {
+    background-color: chartreuse;
 }
 
 #zero {
