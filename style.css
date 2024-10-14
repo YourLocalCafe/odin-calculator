@@ -18,7 +18,7 @@ body {
 
 #display {
     height: 140px;
-    border: 2px solid black;
+    border: 5px solid black;
     font-weight: 500;
     font-size: 100px;
     display: flex;
@@ -62,12 +62,17 @@ body {
     background-color: cadetblue;
 }
 
+#division {
+    flex: 1;
+}
+
 #AC {
-    flex: 3;
+    flex: 2;
     background-color: crimson;
 }
 
 #delete {
+    flex: 2;
     background-color: darkred;
 }
 
